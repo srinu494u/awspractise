@@ -28,15 +28,15 @@ public class LambdaFunctionHandler implements RequestHandler<S3EventNotification
 		this.s3 = s3;
 	}
 
-	static final String FROM = "lavanyakaja3@gmail.com"; // Replace with your "From" address. This address must be
+	static final String FROM = "FROm MAIL ID"; // Replace with your "From" address. This address must be
 															// verified.
-	static final String TO = "srinu494u@gmail.com"; // Replace with a "To" address. If you have not yet requested
+	static final String TO = "tO mAIL ID"; // Replace with a "To" address. If you have not yet requested
 	// production access, this address must be verified.
-	static final String FROMNAME = "Srinivas gunda";
-	static final String SMTP_USERNAME = "AKIA35PRLZEQOQIKWUPM";
+	static final String FROMNAME = "USER NAME ";
+	static final String SMTP_USERNAME = "smtp USER NAME ";
 
 	// Replace smtp_password with your Amazon SES SMTP password.
-	static final String SMTP_PASSWORD = "BET6qYjDM3EsJ6K+FVTza9yXVeWwKz/RU99tGAJSldFY";
+	static final String SMTP_PASSWORD = "smtp APSSWORD";
 	static final String HOST = "email-smtp.ap-south-1.amazonaws.com";
 	static final int PORT = 465;
 
