@@ -10,15 +10,15 @@ import com.amazonaws.services.simpleemail.model.Message;
 import com.amazonaws.services.simpleemail.model.SendEmailRequest;
 
 public class TestAWSSES {
-	static final String FROM = "lavanyakaja3@gmail.com"; // Replace with your "From" address. This address must be
+	static final String FROM = "FROM mail id"; // Replace with your "From" address. This address must be
 	// verified.
-	static final String TO = "srinu494u@gmail.com"; // Replace with a "To" address. If you have not yet requested
+	static final String TO = "To Mail id"; // Replace with a "To" address. If you have not yet requested
 	// production access, this address must be verified.
-	static final String FROMNAME = "Srinivas gunda";
-	static final String SMTP_USERNAME = "AKIA35PRLZEQOQIKWUPM";
+	static final String FROMNAME = "FROm Name";
+	static final String SMTP_USERNAME = "SMTP username";
 
 	// Replace smtp_password with your Amazon SES SMTP password.
-	static final String SMTP_PASSWORD = "BET6qYjDM3EsJ6K+FVTza9yXVeWwKz/RU99tGAJSldFY";
+	static final String SMTP_PASSWORD = "SMTP password";
 	static final String HOST = "email-smtp.ap-south-1.amazonaws.com";
 	static final int PORT = 465;
 
